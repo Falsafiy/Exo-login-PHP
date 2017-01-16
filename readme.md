@@ -1,6 +1,6 @@
-# Project Title
+# Exercice login PHP
 
-Exercice login PHP
+Here is an exercice of php login form, once the user logged in he can see the list of suscribed users
 
 ## Getting Started
 
