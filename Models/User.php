@@ -50,11 +50,13 @@ class User
 
 	 /*
 	 	Create new user
-	 	
+
 		@peusdo String: user alis
 		@pwd String: user password
 		@
 	 */
+
+
 	 function createUser($pseudo, $pwd, $nom, $prenom, $mail)
 	 {
 	 	$erreurs= array();

@@ -1,21 +1,11 @@
 <?php
-	require_once(__DIR__ . "/../Controleur/Controleur.php");
+	require_once(__DIR__ . "/../Controllers/Controleur.php");
+	include("layout/header_classic.php");
 ?>
-
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link href="assets/mixins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-		<link href="assets/css/style.css" rel="stylesheet">
-
-		<title>Formulaire de connexion</title>
-	</head>
 	<body>
 		<div class="centrer">
 			<h1>Connexion</h1>
-			<form method="post" action ="#">
+			<form method="post" action ="login.php">
 				<fieldset>
 					<div class="form-group">
 						<label for="pseudo">* Pseudo </label>
@@ -31,6 +21,10 @@
 		</div>
 		<div class="lien">
 			<a href="Bienvenue.php"> Mdp Oublie</a>
+		</div>
 	</body>
+	<?php
+		include("layout/footer.php");
+	?>
 </html>
 

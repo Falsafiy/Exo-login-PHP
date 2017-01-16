@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 PHP 5.6
-MySQL 5.O
+MySQL 5.6.34
 
 ```
 Give examples
